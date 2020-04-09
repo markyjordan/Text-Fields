@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var characterCountLabel: UILabel!
     
     // MARK: Text Field Delegate objects
+    
     let emojiDelegate = EmojiTextFieldDelegate()
     let colorizerDelegate = ColorizerTextFieldDelegate()
     
