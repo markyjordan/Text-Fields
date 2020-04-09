@@ -6,8 +6,10 @@
 //  Copyright © 2020 Marky Jordan. All rights reserved.
 //
 
-import UIKit
 import Foundation
+import UIKit
+
+// MARK: EmojiTextFieldDelegate: NSObject, UITextFieldDelegate
 
 class EmojiTextFieldDelegate: NSObject, UITextFieldDelegate {
 
@@ -28,6 +30,8 @@ class EmojiTextFieldDelegate: NSObject, UITextFieldDelegate {
         translations["dog"] = "\u{E052}"
         translations["cat"] = "\u{E04F}"
     }
+    
+    // MARK: Text Field Delegate Methods
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
          

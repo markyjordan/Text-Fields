@@ -6,8 +6,10 @@
 //  Copyright © 2020 Marky Jordan. All rights reserved.
 //
 
-import UIKit
 import Foundation
+import UIKit
+
+// MARK: ColorizerTextFieldDelegate: NSObject, UITextFieldDelegate
 
 class ColorizerTextFieldDelegate: NSObject, UITextFieldDelegate {
 
@@ -26,6 +28,8 @@ class ColorizerTextFieldDelegate: NSObject, UITextFieldDelegate {
         "magenta" : UIColor.magenta,
         "white" : UIColor.white
     ]
+    
+    // MARK: Text Field Delegate Methods
     
     // Examines the new string whenever the text changes. Finds color-words, blends them, and set the text color
     
