@@ -13,6 +13,7 @@
 		E2FF3A07243C52F700B1B546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FF3A05243C52F700B1B546 /* Main.storyboard */; };
 		E2FF3A09243C52FD00B1B546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FF3A08243C52FD00B1B546 /* Assets.xcassets */; };
 		E2FF3A0C243C52FD00B1B546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FF3A0A243C52FD00B1B546 /* LaunchScreen.storyboard */; };
+		E2FF3A14243EF80B00B1B546 /* EmojiTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF3A13243EF80B00B1B546 /* EmojiTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E2FF3A08243C52FD00B1B546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2FF3A0B243C52FD00B1B546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2FF3A0D243C52FD00B1B546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FF3A13243EF80B00B1B546 /* EmojiTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E2FF3A01243C52F700B1B546 /* SceneDelegate.swift */,
 				E2FF3A03243C52F700B1B546 /* ViewController.swift */,
 				E2FF3A05243C52F700B1B546 /* Main.storyboard */,
+				E2FF3A13243EF80B00B1B546 /* EmojiTextFieldDelegate.swift */,
 				E2FF3A08243C52FD00B1B546 /* Assets.xcassets */,
 				E2FF3A0A243C52FD00B1B546 /* LaunchScreen.storyboard */,
 				E2FF3A0D243C52FD00B1B546 /* Info.plist */,
@@ -141,6 +144,7 @@
 				E2FF3A04243C52F700B1B546 /* ViewController.swift in Sources */,
 				E2FF3A00243C52F700B1B546 /* AppDelegate.swift in Sources */,
 				E2FF3A02243C52F700B1B546 /* SceneDelegate.swift in Sources */,
+				E2FF3A14243EF80B00B1B546 /* EmojiTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
