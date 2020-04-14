@@ -21,5 +21,9 @@ class RandomColorDelegate: NSObject, UITextFieldDelegate {
         return colors[randomIndex]
     }
     
-    
+    // implement UITextFieldDelegate method
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        textField.textColor = generateRandomColor()
+        return true
+    }
 }
