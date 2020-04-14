@@ -23,6 +23,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     let emojiDelegate = EmojiTextFieldDelegate()
     let colorizerDelegate = ColorizerTextFieldDelegate()
+    let randomColorDelegate = RandomColorDelegate()
     
     // MARK: Life Cycle
     
